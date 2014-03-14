@@ -6,11 +6,9 @@ import java.sql.SQLException;
 
 public class MySQLConnection 
 {
-//	private static final String URL		= "jdbc:mysql://localhost:3306/SM";
-	private static final String URL		= "jdbc:mysql://192.168.0.21:3306/SM";
-//	private static final String USER	= "root";
-	private static final String USER	= "abonomo";
-	private static final String PW		= "Nomo25";
+	private static final String URL		= "";
+	private static final String USER	= "root";
+	private static final String PW		= "";
 	
 	private static Connection conn;
 	
