@@ -25,10 +25,14 @@ public class TweetsToMatlab
 		
 		//From and to dates
 		Calendar from = Calendar.getInstance();
-		from.set(2014, Calendar.MARCH, 3, 6, 30);
+//		from.set(2014, Calendar.MARCH, 3, 6, 30);
+//		from.set(2014, Calendar.MARCH, 14, 6, 30);
+		from.set(2014, Calendar.MARCH, 18, 6, 30);
 		
 		Calendar to = Calendar.getInstance();
-		to.set(2014, Calendar.MARCH, 3, 13, 30);
+//		to.set(2014, Calendar.MARCH, 3, 13, 30);
+//		to.set(2014, Calendar.MARCH, 14, 13, 30);
+		to.set(2014, Calendar.MARCH, 18, 13, 30);
 		
 //		List<String> tweets = MySQLTweetStore.getTweets();
 		List<String> tweets = MySQLTweetStore.getTweetsByTime(from.getTime(), to.getTime());

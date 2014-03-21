@@ -74,6 +74,14 @@ public class TFKLD
 		return tfkld;
 	}
 	
+	public double getKLDWeight(String term)
+	{
+		if(this.kldWeights.containsKey(term))
+			return this.kldWeights.get(term);
+		
+		return 0.0;
+	}
+	
 	private void updateCounts(String sentence, boolean isPositive)
 	{
 		//add counts to the appropriate map
